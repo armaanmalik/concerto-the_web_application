@@ -1,7 +1,12 @@
 <?php 
+<<<<<<< HEAD
 									
 	// Start the session
 
+=======
+										
+	// Start the session
+>>>>>>> origin/master
 	session_start();
 	$uid=$_SESSION["uid"];
 											
