@@ -1,13 +1,13 @@
 <?php 
 										
-										// Start the session
+// Start the session
+	session_start();
+	$uid1=$_SESSION["uid"];										
+	$uid=$_GET["id"];									
+	//connecting with database										
+	include("php/connectdb.php"); 																				
 
-											session_start();
-											$uid1=$_SESSION["uid"];
-											$uid=$_GET["id"];
-											//connecting with database
-											include("php/connectdb.php"); 
-
+										
 ?>
 <!DOCTYPE html>
 <html lang="en">
