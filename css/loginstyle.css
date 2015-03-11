@@ -1,0 +1,433 @@
+
+.button{
+  width:100px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.button:hover{
+  background:#2288bb;
+}
+
+#loginbox{
+  width:500px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+
+#signup{
+  width:650px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+
+ position: absolute;
+top:250px;
+right: 	20px;
+  float: right;
+}
+
+#music{
+  width:500px;
+  height:300px;	
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+background:#3399cc;
+position: absolute;
+top:250px;
+right: 	20px;
+}
+
+#x1
+{
+color:white; 
+font-weight: bold;
+text-align:center;
+
+}
+
+#x2
+{
+color:red; 
+font-weight: bold;
+font-size: 38px;
+}
+
+#band{
+  width:500px;
+  height:300px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+background:#3399cc;
+position: absolute;
+top:600px;
+right: 	20px;
+}
+
+#concert{
+  width:500px;
+  height:400px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+background:#3399cc;
+position: absolute;
+top:950px;
+right: 	20px;
+
+}
+
+#following{
+  width:500px;
+  height:300px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+background:#3399cc;
+position: absolute;
+top:250px;
+right:600px;
+}
+
+#follower{
+  width:500px;
+  height:300px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+background:#3399cc;
+position: absolute;
+top:600px;
+right: 600px;
+}
+
+#recommend{
+  width:500px;
+  height:400px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+background:#3399cc;
+position: absolute;
+top:950px;
+right: 	600px;
+}
+
+#recommend_music{
+  width:600px;
+  height:300px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+background:#3399cc;
+ position: absolute;
+top:250px;
+left: 350px;
+color:yellow;
+
+
+}
+
+#recommend_band{
+  width:600px;
+  height:300px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+
+  position: absolute;
+  top:600px;
+	left: 350px;
+color:yellow;
+background:#3399cc;
+  float: center;
+}
+
+#recommend_concert{
+  width:600px;
+  height:400px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  -webkit-transition:opacity 1s;
+  position: absolute;
+  top:950px;
+left: 350px;
+color:yellow;
+background:#3399cc;
+  float: center;
+}
+
+
+#new_concert{
+  width:600px;
+  height:400px;
+  transition:opacity 1s;
+  display:block;
+  text-align: center;
+  position: absolute;
+  top:1400px;
+left: 350px;
+color:yellow;
+background:#3399cc;
+  float: center;
+}
+#search{
+  width:800px;
+  height: 600px
+  transition:opacity 1s;
+position: relative;
+top:250px;
+left:450px;
+  text-align: center;
+font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition:opacity 1s;
+  
+  float: center;
+}
+
+#search1{
+  width:800px;
+  height: 600px
+  transition:opacity 1s;
+position: relative;
+top:250px;
+left:450px;
+  text-align: center;
+font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition:opacity 1s;
+  
+  float: center;
+}
+
+#search2{
+  width:800px;
+  height: 600px;
+  transition:opacity 1s;
+position: relative;
+top:100px;
+left:250px;
+  text-align: center;
+font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition:opacity 1s;
+  
+  float: center;
+}
+
+#search3{
+  width:1000px;
+  height: 600px;
+  transition:opacity 1s;
+position: relative;
+top:100px;
+left:450px;
+  text-align: center;
+font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition:opacity 1s;
+  
+  float: center;
+}
+
+#search4{
+  
+  transition:opacity 1s;
+position:relative;
+  top:10%;
+transform: translateY(-20%);
+left:450px;
+
+  text-align: center;
+font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition:opacity 1s;
+  
+}
+
+#f2{
+width: 100%;
+height:100px;
+text-align: center;
+position: absolute;
+  top:1900px;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+
+
+}
+
+
+#f3{
+width: 100%;
+height:100px;
+text-align: center;
+position: absolute;
+  top:1355px;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+
+
+}
+
+#f4{
+width: 100%;
+height:100px;
+text-align: center;
+position: absolute;
+  top:2055px;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+
+
+}
+#f5{
+width: 100%;
+height:100px;
+text-align: center;
+position: absolute;
+  top:1855px;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+
+
+}
+
+#f6{
+width: 100%;
+height:100px;
+text-align: center;
+position: absolute;
+  top:2755px;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+
+
+}
+
+
+
+
+#loginbox h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+#signup h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="text"],input[type="email"],input[type="password"],textarea,input[type="date"],input[type="datetime-local"],input[type="number"],#vid1,#bid1{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+label{
+ font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+
+
+}
+
+
+#refer{
+ font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:orange;
+position: absolute;
+left:650px;	
+
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
