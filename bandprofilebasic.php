@@ -1,12 +1,12 @@
 <?php 
-										
-										// Start the session
+									
+	// Start the session
 
-											session_start();
-											$uid=$_SESSION["uid"];
+	session_start();
+	$uid=$_SESSION["uid"];
 											
-											//connecting with database
-											include("php/connectdb.php"); 
+	//connecting with database
+	include("php/connectdb.php"); 
 
 ?>
 <!DOCTYPE html>
